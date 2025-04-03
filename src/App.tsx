@@ -49,7 +49,7 @@ function App() {
   };
 
   const handleClearAll = async () => {
-    if (!window.confirm('Bist du sicher, dass du alle Bestellungen löschen möchtest?')) {
+    if (!window.confirm('Bist du wirklich sicher, dass du alle Bestellungen löschen möchtest?')) {
       return;
     }
 
